@@ -8,5 +8,5 @@ sudo: required
 distro: trusty
 
 script:
-  - javac testing.java
-  - java testing
+  - javac Java8Tester.java
+  - java Java8Tester
