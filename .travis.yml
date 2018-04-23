@@ -1,7 +1,8 @@
 language: java
-  - openjdk6
-  - openjdk7
-  - openjdk8
+jdk: 
+ - openjdk6
+ - openjdk7
+ - openjdk8
 
 sudo: required
 distro: trusty
