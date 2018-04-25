@@ -1,19 +1,13 @@
 language:
- - python
  - java
-
-python:
-  - "2.6"
-  - "2.7"
-  - "3.2"
-  - "3.3"
-
 jdk:
-  - oraclejdk6
-  - oraclejdk7
-  - oraclejdk8
+ - openjdk6
+ - openjdk7
+ - openjdk8
+
+sudo: required
+distro: trusty
 
 script:
- - python printVersion.py
  - javac testing.java
- - java testing
+ - java test
